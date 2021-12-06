@@ -1,8 +1,8 @@
 ---
+layout: home
 title: Accueil
-permalink: /
 ---
 
 ## Home sweet home.
 
-Vous utilisez le Jekyll Starter BS5 de noesya
+Vous utilisez le Jekyll Starter BS5 de (noesya)[https://www.noesya.coop]

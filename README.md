@@ -12,6 +12,14 @@ Build
 yarn build
 ```
 
+Start
+```
+yarn start
+```
+
+## Dev dependencies
+* Webpack
+
 ## Plugins
 * Jekyll Minifier
 * Jekyll Picture Tag

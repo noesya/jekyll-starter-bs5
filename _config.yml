@@ -1,11 +1,15 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
 title: Jekyll Starter BS5
 lang: fr
 
 exclude:
   - Gemfile
   - Gemfile.lock
+  - LICENSE
   - README.md
   - package.json
+  - webpack.config.js
   - yarn.lock
 
 plugins:
@@ -28,7 +32,6 @@ jekyll-minifier:
 
 picture:
   ignore_missing_images: true
-  source: "assets/images/"
 
 defaults:
   -
@@ -36,7 +39,14 @@ defaults:
       path: ""
     values:
       layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
 
 collections:
   pages:
     output: true
+    permalink: /:title
