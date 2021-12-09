@@ -1,0 +1,8 @@
+primary:
+  - title: Accueil
+    url: /
+legal:
+  - title: Mentions légales
+    url: /mentions-legales
+  - title: Gestion des cookies
+    url: /gestion-des-cookies
