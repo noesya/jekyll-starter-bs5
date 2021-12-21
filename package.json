@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "webpack": "./node_modules/.bin/webpack --watch --mode=development",
-    "build": "./node_modules/.bin/webpack | JEKYLL_ENV=production bundle exec jekyll build",
+    "build": "./node_modules/.bin/webpack && JEKYLL_ENV=production bundle exec jekyll build",
     "start": "./node_modules/.bin/webpack --watch --mode=development | bundle exec jekyll serve --livereload"
   },
   "dependencies": {

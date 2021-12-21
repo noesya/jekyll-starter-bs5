@@ -1,3 +1,5 @@
+import './vendors/js.cookie-2.2.1.min.js'
+
 /* global Cookies, gtag */
 window.template = window.template || {};
 window.template.cookieConsent = {
