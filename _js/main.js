@@ -1,2 +1,2 @@
-import "./cookie_banner"
-import "./bootstrap"
+import './bootstrap';
+import './cookie-banner';
